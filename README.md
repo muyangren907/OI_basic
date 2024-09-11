@@ -1,90 +1,187 @@
-<div align ="center">
+<div align="center">
+<img src="http://picreso.oss-cn-beijing.aliyuncs.com/alos.jpg" width="80%"></img>
+  <span> <h1>Algorithms-in-4-Steps</h1>
+  <h2> Let Everyone Study Algorithm Easier</h2>
+  </span>
+</div>
+
+
+
+因为准备实习，整理了一下算法的课件、书籍、论文、习题、OJ网站，总结了学习路线。
+
++ 不管是准备面试；
++ 还是自学算法与数据结构；
++ 不管你算法能力如何，这个仓库里总有适合你的算法学习内容！
+
+> 如果对你有所帮助，请 star✨ 支持一下
+>
+> 出乎意料进了`GitHub Trending`，这是对我很大的鼓励！
+
+
+
+<div align="center">
   <h1>
-    Algorithm Guide
+    Let`s Start!
   </h1>
-  </div>
+</div>
 
-本仓库带你系统掌握程序员必知必会的**算法**和**数据结构**
+<div align = "center">
+  <h2> 一、快速入门 </h2>
 
-本仓库主要有**两个分支**：
+### 算法、数据结构、C++快速入门：
 
-+ **master分支**：最近的新分支，也是以后日常维护的主分支，内容为算法和数据结构的教程。
+[算法入门](./system-learn/algo) || [数据结构入门](./system-learn/ds) || [C++入门](./system-learn/c++)
 
-+ **Collections 分支**：以前的主分支，整理了算法和数据结构的资料，现作为辅助分支：[这里访问](https://github.com/Xunzhuo/Algorithms-in-4-Steps/tree/Collections)
+## 二、专题训练
 
- > **算法部分**基本完成，**数据结构**还有很多未完成部分，空闲时会加快完善
+### 基础算法
 
-## 目录：
+[复杂度分析](./basic-algo/Complexity) || [高精度](./basic-algo/high) || [暴力](./basic-algo/Enumerate) || [二分](./basic-algo/Dichotomy) || [分治](./basic-algo/divide)  || [搜索](./basic-algo/Search) || [贪心](./basic-algo/Greedy)
 
-1. [算法篇](#算法篇)
-2. [数据结构篇](#数据结构篇)
-3. [刷题练习篇](#刷题练习篇)
+### 基础数据结构
 
-## 算法篇
+[基础数据结构](./basic-ds)
 
-+ [一、复杂度分析](algorithm/analysis.md)
-+ [二、高精度算法](algorithm/big-num.md)
-+ [三、排序算法](algorithm/sort.md)
-+ [四、递推算法](algorithm/recursion.md)
-+ [五 、递归算法](algorithm/recursion-2.md)
-+ [六、分治算法](algorithm/bi-divide.md)
-+ [七、贪心算法](algorithm/greedy.md)
-+ [八、广度优先搜索算法](algorithm/bfs.md)
-+ [九、深度优先搜索算法](algorithm/dfs.md)
-+ [十、回溯算法](algorithm/backtrace.md)
-+ [十一、动态规划](algorithm/dynamic%20programming.md)
-+ [十二、字符串算法](algorithm/string.md) 
+</div>
 
-## 数据结构篇
 
-+ [一、栈](data-structure/stack.md)
-+ [二、队列](data-structure/queue.md)
-+ [三、树](data-structure/tree.md) 
-+ [四、堆](data-structure/heap.md) 
-+ [五、图论算法 ](data-structure/graph.md) 
-+ [六、并查集](data-structure/DisjointSets.md)  
-+ [七、最小生成树](data-structure/kruskal.md) 
-+ [八、拓扑排序与关键路径](data-structure/key-path.md) 
-+ [九、线段树](data-structure/line-tree.md) 
-+ [十、树状数组](data-structure/tree-array.md) 
 
-##  刷题练习篇
+<div align = "center">
+  <h2> 三、高阶训练 </h2>
 
-在掌握了重要的算法和数据结构之后，需要练习巩固
+### 算法进阶
 
-#### **网站的选择？**
+[动态规划](./algo-plus/dp) || [分块算法](./algo-plus/block) ||  [计算几何](./algo-plus/compute)
 
-推荐 **LeetCode**，[这里访问](https://leetcode-cn.com/)
+### 数据结构进阶
 
-#### **刷哪些题目？**
+[树](./ds-plus/tree) || [字符串](./ds-plus/string) ||  [图](./ds-plus/graph)
 
-1. 如果你**时间紧张**：可以练习**LeetCode**的**热门推荐**：
+### 语言进阶
 
-   ![image-20201220164553273](https://picreso.oss-cn-beijing.aliyuncs.com/image-20201220164553273.png)
+[C++](./c-plus)
 
-   比如：[Leetcode 热题 Hot 100](https://leetcode-cn.com/problemset/leetcode-hot-100/) 和 [LeetCode 精选 TOP 面试题](https://leetcode-cn.com/problemset/leetcode-top/)
+### 数学进阶
 
-2. 如果你**时间充裕**：可以按以下分类，系统练习：
+[数学](./math)
 
-   + **专题一：数组(`Chapter1_Array`)**
-   + **专题二：链表(`Chapter2_list`)**
-   + **专题三：字符串(`Chapter3_String`)**
-   + **专题四：栈(`Chapter4_Stack`)**
-   + **专题五：树(`Chapter5_Tree`)**
-   + **专题六：排序(`Chapter6_Sort`)**
-   + **专题七：查找(`Chapter7_Search`)**
-   + **专题八：暴力解法(`Chapter8_Violence`)**
-   + **专题九：BFS(`Chapter9_BFS`)**
-   + **专题十：DFS(`Chapter10_DFS`)**
-   + **专题十一：分治(`Chapter11_Paritition`)**
-   + **专题十二：贪心(`Chapter12_Greedy`)**
-   + **专题十三：动态规划(`Chapter13_DP`)**
-   + **专题十四：图(`Chapter14_Graph`)**
-   + **专题十五：不定类型(`Chapter15_Unspecific`)**
+### 其他
 
-#### 练习策略
+[杂](./other)
 
-+ **第一遍**：**先思考**，如果没思路，可以看题解，结合其他人的题解刷。总结自己是否在思路上有问题，或者是否算法与数据结构基础上有问题，掌握本题的类型，思考方式，最优题解。
-+ **第二遍**：**回忆最优解法**，**尝试直接写**，并与之前自己写过的解答作比对，总结问题和方法。
-+ **第三遍**：提升**刷题速度**和**一题多解**，拿出一个题，就能够知道其考察重点，解题方法，在短时间内写出解答，并且思考多种解决办法。
+</div>
 
+<div align = "center">
+  <h2> 四、潜心阅读 </h2>
+
+### 阅读书籍
+
+#### `算法`
+
+ [算法竞赛](./book/algo/) || [数学之美](./book/algo/) || [数据结构与算法（Java)](./book/algo/) || [算法](./book/algo/) || [算法模版](./book/algo/)
+
+#### `语言`
+
+`C`
+
+[CPrimerPlus](./book/lang/)
+
+`C++`
+
+[C++PrimerPlus](./book/lang/)|| [C++Primer](./book/lang/) || [Effective C++](./book/lang/) || [Effective STL](./book/lang/)
+
+`Python`
+
+[从入门到实践](./book/lang/) || [流畅的Python](./book/lang/) || [Effective Python](./book/lang/) || [PythonCookbook](./book/lang/)
+
+### 阅读论文
+
+> 这一阶段因人而异，多练习多刷OJ才是王道！
+
+[1999论文集](./papers) || [2000论文集](./papers) || [2001论文集](./papers)|| [2002论文集](./papers)||[2003论文集](./papers)
+
+[2004论文集](./papers) || [2005论文集](./papers) || [2006论文集](./papers) || [2007论文集](./papers) || [2008论文集](./papers)
+
+[2009论文集](./papers) || [2013论文集](./papers) || [2014论文集](./papers) || [2015论文集](./papers)|| [2018论文集](./papers)
+
+</div>
+
+
+
+<div align="center">
+  <h2>
+    五、刷题训练
+  </h2>
+
+
+
+
+
+### 练习题
+
+[习题](./exercise)
+
+</div>
+
+> 更有效的方式训练是直接在OJ上刷题，网站整理如下：
+
+
+
+### 国内Online Judge
+
+#### 三大OJ
+
+1. 浙江大学 [http://acm.zju.edu.cn](http://acm.zju.edu.cn/) 超过2000题，支持C/C++/Pascal/Java/Python/Perl/Scheme/PHP
+2. 北京大学 [http://poj.org](http://poj.org/) 超过2000题，支持C/C++/Pascal/Java/Fortran
+3. 哈尔滨工业大学 [http://acm.hit.edu.cn](http://acm.hit.edu.cn/) 超过2000题，支持C/C++/Pascal/Java/Fortran
+
+#### 非常火的hdu
+
++ 杭州电子科技大学 [http://acm.hdu.edu.cn](http://acm.hdu.edu.cn/) 超过2000题，支持C/C++/Pascal/Java杭电OJ是国内最为活跃的OJ
++ 每周都会举办bestcoder比赛，相当于国内的codeforce：http://bestcoder.hdu.edu.cn/
+
+#### OJ集合：vjudge
+
++ Vjudge：https://vjudge.net/ 这个网站的特色就是用户可以自己举办比赛，vjudge支持数十个OJ网站，用户可以从这些OJ网站上选择题目，可以选择一些同类型题目形成一个题集。
+
+
+
+### 国外Online Judge
+
+1. CF：CodeForce：http://codeforces.com/problemset 世界顶级OJ
+
+   CodeForce还提供了API接口：http://codeforces.com/api/help
+
+2. Saratov State University [http://acm.sgu.ru](http://acm.sgu.ru/) 超过400题，支持C/C++/C#/Java/Delphi
+
+3. UVA：University of Valladolid [http://uva.onlinejudge.org](http://uva.onlinejudge.org/) 超过800题，支持C/C++/Pascal/Java
+
+4. Ural State University [http://acm.timus.ru](http://acm.timus.ru/) 超过800题，支持C/C++/C#/Pascal/Java
+
+5. Sphere Research Labs [http://www.spoj.pl](http://www.spoj.pl/) 超过1000题，支持几乎所有常见语言
+
+
+
+### 入门到进阶的Online Judge
+
+1. vijos：大部分题目是NOI题目 https://vijos.org/
+2. 洛谷：https://www.luogu.org/problemnew/lists
+3. RQNOJ：和vijos很像，适合NOI刷题 http://www.rqnoj.cn/problem
+
+
+
+### 招聘面试Online Judge
+
+1. 牛客网：https://www.nowcoder.com/
+2. leetcode：https://leetcode.com/problemset/all/
+3. LintCode：https://www.lintcode.com/zh-cn/
+4. 51nod：http://www.51nod.com/Challenge/ProblemList.html#!#isAsc=false
+5. hackerrank：https://www.hackerrank.com/
+
+![](http://picreso.oss-cn-beijing.aliyuncs.com/coderkoke.jpg)
+
+> 算法路上加油
+>
+> 欢迎大家贡献你的资料，丰富这个`Repo`
+>
+> 如有侵权，麻烦提 Issues 或联系 mixdeers@gmail.com 删改
